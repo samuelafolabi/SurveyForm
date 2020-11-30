@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header { text-align: center;
+         line-height: 0.8rem;
+         
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #425758;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0 auto;
+  }
+  
+  .wrapper {
+      display: flex;
+      justify-content: center;
+  }
+
+  form { background-color: #e3e4fd;
+         padding: 2% 2%;
+         border-radius: 2%;
+    }
+  
+    label { display: flex;
+            justify-items: center;
+            margin-bottom: 0.2rem;
+            
+
+    }
+    .form-group { margin-bottom: 0.8rem;
+
+    }
+
+    p { margin-bottom: 0.4rem;
+
+    }
+    .hint { font-size: 0.8rem;
+            font-style: italic;
+
+    } 
+
+    .form-control { width: 95%;
+                    height: 24px;
+                    font-family:'Open Sans';
+                    font-weight: 400;
+                    background-color: #fff;
+                    display: block;
+                    border: 1px solid #b6e6f1;
+                    padding-left: 0.5rem;
+                    border-radius: 0.25rem;
+                    color:  #172020;
+                
+                  }
+
+   
+
+    .form-control:focus { outline: 0;
+                          box-shadow: 0 0 0 0.1rem #70bdbd;
+
+
+                  } 
+    
+    .input-textarea {min-height: 100px;
+                width:100%;
+                border: 1px solid #b6e6f1;
+                display: block;
+                border: 0;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                border-radius: 0.25rem;}
+
+   .input-textarea:focus { outline: 0;
+                        box-shadow: 0 0 0 0.1rem #70bdbd}
+
+   
+     .submit-button { margin-top:20px;
+                     display: block;
+                     box-shadow: 0 0 0 0.1rem #70bdbd;
+                     border: 0;
+                      
+                      width: 100%;
+                      padding: 0.75rem;
+                      color: #ffffff;
+                      background-color: #2a9494;
+                      font-family: 'Open Sans';
+                      font-weight: 600;
+                      cursor: pointer;
+    }
+
+    .submit-button:focus { background-color: #23adad;
+                           border: 0;
+                           }
+
+
